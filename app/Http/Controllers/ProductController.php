@@ -10,8 +10,8 @@ class ProductController extends Controller
     //index
     public function index()
     {
-        $products = Product::latest()->paginate(10);
-        return view('products.index', compact('products')) ->with('i', (request()->input('page', 1) - 1) * 10);
+        $products = Product::latest()->paginate(7);
+        return view('products.index', compact('products')) ->with('i', (request()->input('page', 1) - 1) * 7);
     }
 
     //<--------------------------------------------Create-------------------------------------------->
