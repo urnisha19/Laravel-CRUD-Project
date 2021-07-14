@@ -1,4 +1,6 @@
 # Grocery Store - Admin CRUD Operations
+<br/>
+Image: https://ibb.co/FW6RYBK
 
 ## Features:
 * Create a new product and add to the database
