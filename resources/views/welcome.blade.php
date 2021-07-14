@@ -403,7 +403,7 @@
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
         <div>
             <h1 style="color:orangered">CSE 323: Web Programming Laravel Project</h1>
-            <h2 style="color:orangered">Grocery Products Store - Admin CRUD Operations</h2>
+            <h2 style="color:orangered">Grocery Store - Admin CRUD Operations</h2>
             <button style="color:orangered; border-radius:.5em;"><a href="{{ route('products.index') }}">
                     <h3>Admin</h3>
                 </a></button>

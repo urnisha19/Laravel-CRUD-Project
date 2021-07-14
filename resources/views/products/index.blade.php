@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="text-center">
-                <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
+                <a class="btn btn-primary" href="{{ route('products.create') }}"> Create New Product</a>
             </div>
         </div>
     </div>
@@ -26,8 +26,8 @@
     </div>
    
     @if ($message = Session::get('success'))
-        <div class="alert alert-success">
-            <p>{{ $message }}</p>
+        <div class="alert">
+            <p class="text-center"><em>{{ $message }} !!!</em></p></p>
         </div>
     @endif
    
